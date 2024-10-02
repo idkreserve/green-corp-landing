@@ -93,6 +93,7 @@ input {
 .about__sun_image {
     width: 100px;
     height: 100px;
+    animation: rotation 10s linear infinite;
 }
 
 .form__container {
@@ -185,4 +186,10 @@ footer {
 
 .footer__links a {
     margin-bottom: 15px;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
 }
